@@ -6,6 +6,10 @@ class ServerController < ApplicationController
     p = argv[0]
     fadt_map=[]
     test_arg = 0
+    fn_abc = 23
+    while(fn is nil?)
+      #do the code to push to remote server
+    end
     # if p is nil?
     #
     #   report
