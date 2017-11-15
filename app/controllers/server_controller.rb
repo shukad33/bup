@@ -4,11 +4,12 @@ class ServerController < ApplicationController
     p 'in heartbeat fn'
     check_st
     p = argv[0]
-    if p is nil?
-
-      report
-
-    end
+    test_arg = 0
+    # if p is nil?
+    #
+    #   report
+    #
+    # end
   end
 
   def check_st
