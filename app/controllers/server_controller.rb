@@ -4,7 +4,7 @@ class ServerController < ApplicationController
     p 'in heartbeat fn'
     check_st
     p = argv[0]
-    fadt_map={}
+    fadt_map=[]
     test_arg = 0
     # if p is nil?
     #
