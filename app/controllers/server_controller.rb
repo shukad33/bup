@@ -6,6 +6,12 @@ class ServerController < ApplicationController
     p = argv[0]
     fadt_map=[]
     test_arg = 0
+    to_target = 1.0
+    ttl = 0
+    while(ttl != 1)
+
+      # here ttl has some issues
+    end
     # if p is nil?
     #
     #   report
